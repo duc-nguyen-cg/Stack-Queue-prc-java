@@ -22,6 +22,7 @@ public class PersonManagement {
         while (!males.isEmpty()){
             result.add(males.poll());
         }
+
         return result;
     }
 
